@@ -7,12 +7,8 @@ function generatePassword(){
   var uppercaseList = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
   var specialCharList = ['+', '-', '*', '/', '%', '=', '>', '<', '!', '&', '|', '?', ':', ';', ',', '.'];
   var userChoice = [];
-  console.log(numberList)
-  console.log(lowercaseList)
-  console.log(uppercaseList)
-  console.log(specialCharList)
 
-  alert("Please choose the criteria in your password.");
+  alert("Please choose the criteria for your password.");
   var length = prompt("Choose the length of your password, please input 8 to 128 characters: ");
   var num = confirm("Would you like a numeric in your password?");
   var lowercase = confirm("Would you like a lowercase Alphabet in your password?");
